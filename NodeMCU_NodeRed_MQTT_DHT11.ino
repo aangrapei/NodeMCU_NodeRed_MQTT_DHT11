@@ -1,7 +1,7 @@
 /*
  * ==============================NODEMCU MQTT NODE-RED=================================
  * 
- * ===============================SENSOR SUHU DHT 11=======================================
+ * ===============================SENSOR SUHU DHT 11===================================
  * 
  * ==================================AANG RAPE'I=======================================
  * 
@@ -22,8 +22,8 @@ dht DHT;
 #define DHTPIN D7
 
 //Setup WIFI
-const char*   ssid        = "WLAN2"; //Nama SSID Wifi yang akan diakses!
-const char*   pass        = "sonaulyamahasin"; //Password Wifi
+const char*   ssid        = "XXX"; //Nama SSID Wifi yang akan diakses!
+const char*   pass        = "XXX"; //Password Wifi
 
 //Setup MQTT broker
 const char*   mqtt_server = "broker.hivemq.com"; //Server MQTT/Broker
